@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: httpd
-          image: nikhildocker28/test1:v1  # Use the httpd image from Docker Hub
+          image: nikhildocker28/test1:latest  # Use the httpd image from Docker Hub
           ports:
             - containerPort: 80
